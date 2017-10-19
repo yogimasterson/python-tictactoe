@@ -17,7 +17,7 @@ def player_input():
 
     while not (marker == 'X' or marker == 'O'):
         marker = raw_input('Player 1: X or O? ').upper()
-
+ 
     if marker == 'X':
         return ('X', 'O')
     else:
